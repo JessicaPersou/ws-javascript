@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="br-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" href="style.css"><link>
+    <title>Calculadora</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora Básica</h1>
+    </header>
+    <section> 
+    <div>
+        <form name="calc">
+        <table>
+        <input type="text" name="tela">
+        <tr><td>
+            <input type="button" value="7" onclick="botao(value);" >
+            <input type="button" value="8" onclick="botao(value);" >
+            <input type="button" value="9" onclick="botao(value);" >
+            <input type="button" value="/" onclick="botao(value);" >
+        </td></tr>
+        <tr><td>
+            <input type="button" value="4" onclick="botao(value);" >
+            <input type="button" value="5" onclick="botao(value);" >
+            <input type="button" value="6" onclick="botao(value);" >
+            <input type="button" value="*" onclick="botao(value);" >
+        </td></tr>
+        <tr><td>
+            <input type="button" value="1" onclick="botao(value);" >
+            <input type="button" value="2" onclick="botao(value);" >
+            <input type="button" value="3" onclick="botao(value);" >
+            <input type="button" value="-" onclick="botao(value);" >
+        </td></tr>
+        <tr><td>
+            <input type="button" value="0" onclick="botao(value);" >
+            <input type="button" value="=" onclick="botao(value);" >
+            <input type="button" value="C" onclick="reset();" >
+            <input type="button" value="+" onclick="botao(value);" >
+
+        </td></tr>
+        
+        </table>
+        </form>
+    </div>
+        
+    </section>
+    <footer>
+        <p>&copy;Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
