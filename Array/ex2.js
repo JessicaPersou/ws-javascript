@@ -6,7 +6,7 @@ let paises = ["Brasil", "México", "Uruguai", "Chile"]
 
 for( i = 0 ; i <1; i++){
 paises.forEach(function (i, p, array){
-    console.log(i)
+    console.log(i,p)
 })
 } // formas de ler array
 

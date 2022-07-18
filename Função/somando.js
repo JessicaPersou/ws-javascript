@@ -10,6 +10,8 @@ for(let i = 0; i < valores.length; i++){
     soma += valores[i]  
 }
 
+
+
 if( soma % 2 == 0){
     console.log("O número somado é par!" + soma)
 }else{

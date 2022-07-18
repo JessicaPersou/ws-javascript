@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Sistema de Frases para Array</h1>
-    Escreva as tecnologias que você conhece: <input type="text" name="nac" id="frase" placeholder="Separe apenas por espaço">
+    Escreva as tecnologias que você conhece: <input type="text" id="frase" placeholder="Separe apenas por espaço">
     <input type="button" value="VERIFICAR" onclick="verifica()">
     <div id="mostra">
     </div>
@@ -22,7 +22,7 @@ function verifica(){
     let arr = txt.split(" ")
     document.getElementById("mostra").innerHTML = arr
     let troca = arr.join([separador = "|"])  
-    document.getElementById("mostra").innerHTML = troca.toUpperCase().bold().italic()
+    document.getElementById("mostra").innerHTML = troca.toUpperCase().bold()
 
 }
 
