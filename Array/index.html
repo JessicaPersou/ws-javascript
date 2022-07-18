@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pr-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escrevendo frase com Array</title>
+</head>
+<body>
+    <h1>Sistema de Frases para Array</h1>
+    Escreva as tecnologias que você conhece: <input type="text" name="nac" id="frase" placeholder="Separe apenas por espaço">
+    <input type="button" value="VERIFICAR" onclick="verifica()">
+    <div id="mostra">
+    </div>
+    <script>
+
+
+
+function verifica(){
+
+    let txt = document.getElementById('frase').value;
+    let arr = txt.split(" ")
+    document.getElementById("mostra").innerHTML = arr
+    let troca = arr.join([separador = "|"])  
+    document.getElementById("mostra").innerHTML = troca.toUpperCase().bold().italic()
+
+}
+
+
+
+        /*define constante como Brasil
+        const brasil = "Brasil";
+
+        Executa condição, primeiro pegamos o valor com '.value' depois executamos nossa condição
+
+        function calcular() {
+          var txtn = document.getElementById('nac').value;
+
+            if (txtn == brasil) {
+              document.getElementById('pais').innerHTML = 'Brasileiro';
+            } else {
+              document.getElementById('pais').innerHTML = 'Gringo';
+          }
+          };*/
+        
+        
+       
+
+    </script>
+</body>
+</html>
