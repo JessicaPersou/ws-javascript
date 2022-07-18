@@ -70,7 +70,7 @@ switch (qualidadeCoxinha) {
 let continentePaises="1"
 console.log("1 - América do Sul");
 console.log("2 - África Central");
-console.log("3 - Europa");
+console.log("3 - Europa");""
 console.log("4 - América do Norte");
 console.log("5 - Oceania\n");
 continentePaises=prompt("Digite o número do continente e veja quais países existem nele!\n");
