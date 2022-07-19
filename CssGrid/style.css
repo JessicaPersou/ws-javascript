@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: rgb(238, 197, 31);
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    gap: 10px;
+}
+
+.item-1{
+    border: 2px #000 solid;
+    height: 100px;
+    background-color: brown;
+    grid-column-start:1 ;
+    grid-column-end: 5;
+}
+
+.item-2{
+    border: 2px #000 solid;
+    height: 100px;
+    background-color: dodgerblue;
+}
+.item-3{
+    border: 2px #000 solid;
+    height: 100px;
+    background-color: brown;
+}
+.item-4{
+    border: 2px #000 solid;
+    height: 100px;
+    background-color: dodgerblue;
+
+}
+.item-5{
+    border: 2px #000 solid;
+    height: 100px;
+    background-color: brown;
+}
+.item-6{
+    border: 2px #000 solid;
+    height: 100px;
+    background-color: dodgerblue;
+
+    
+}
+.item-7{
+    border: 2px #000 solid;
+    height: 100px;
+    background-color: brown;
+}
+.item-8{
+    border: 2px #000 solid;
+    height: 100px;
+    background-color: dodgerblue;
+
+}
+.item-9{
+    border: 2px #000 solid;
+    height: 100px;
+    background-color: brown;
+}
+.item-10{
+    border: 2px #000 solid;
+    height: 100px;
+    background-color: dodgerblue;
+
+}

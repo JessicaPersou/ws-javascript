@@ -18,8 +18,8 @@ console.log(strNomes)
 console.log(Array.isArray(nomes))
 console.log(Array.isArray(strNomes))
 
-/*for(let i = 0; i < strNomes.length; i++ ){
+for(let i = 0; i < strNomes.length; i++ ){
     console.log(strNomes);
-}*/
+}
 let troca = strNomes.join([separador = "-"])
 console.log(troca)
