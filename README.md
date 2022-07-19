@@ -1,5 +1,7 @@
-# ws-javascript
+# Worksoace de Javascript
 
-Curso da Digital House - Javascript | NodeJS | React
+Curso Alura
+Curso Guanabara
+Curso da Digital House - Módulo 1(Introdução e Lógica)
 
-Modulo 1 
+
