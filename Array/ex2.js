@@ -1,14 +1,11 @@
 /*escreva uma frase no com for usando o metodo array e depois mudar o metodo separador */
 
-
-
 let paises = ["Brasil", "México", "Uruguai", "Chile"]
 
-for( i = 0 ; i <1; i++){
 paises.forEach(function (i, p, array){
-    console.log(i,p)
+    console.log(i)
 })
-} // formas de ler array
+ // formas de ler array
 
 for( let value of paises){
     console.log(value)

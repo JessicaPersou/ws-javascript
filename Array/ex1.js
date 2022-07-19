@@ -1,7 +1,7 @@
 let frutas = new Array("Maracujá","Banana","Maça","Morango")
 console.log(frutas[0]) // pegar por posição
-console.log(frutas.length) //quantidade total de arrays dentro da variavel frutas
-let ultimo = frutas[frutas.length -1];
+console.log("Mostrando length" + frutas.length) //quantidade total de arrays dentro da variavel frutas
+let ultimo = frutas[frutas.length - 2];
 console.log(ultimo)
 let add = frutas.push("Manga") //
 console.log(frutas)

@@ -2,8 +2,8 @@
 
 let nota1, nota2, mediaFinal, aprovado
 		
-nota1 = prompt("Escreva a Nota 1: ")
-nota2 = prompt("Escreva a Nota 2: ")
+nota1 = 5//prompt("Escreva a Nota 1: ")
+nota2 = 7//prompt("Escreva a Nota 2: ")
 	
 mediaFinal = (parseInt(nota1) + parseInt(nota2)) / 2
     
