@@ -1,0 +1,25 @@
+let cidades = new Array(
+    "São Paulo",
+    "Salvador",
+    "Curitiba",
+    "Parati",
+    "São Domingos"
+)
+
+
+const idade = 18;
+let passagem = true;
+let escolha = "Curitiba";
+
+let podeViajar = passagem == true && idade >= 18;
+ 
+let lista = 0
+while (lista<5){
+
+    if (cidades[lista] == escolha){
+    console.log("Autorizado");
+    lista +=1;
+    }else{
+        console.log("Barrado");
+    }
+}

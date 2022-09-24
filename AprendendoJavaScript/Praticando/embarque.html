@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RECEITA FEDERAL</title>
+</head>
+<body>
+    <h1>SISTEMA DE EMBARQUE</h1>
+    Nacionalidade: <input type="text" name="nac" id="nac">
+    <input type="button" value="VERIFICAR" onclick="calcular()">
+    <div id="pais">
+    </div>
+    <script>
+
+        //define constante como Brasil
+        const brasil = "Brasil";
+
+        //Executa condição, primeiro pegamos o valor com '.value' depois executamos nossa condição
+
+        function calcular() {
+          var txtn = document.getElementById('nac').value;
+
+            if (txtn == brasil) {
+              document.getElementById('pais').innerHTML = 'Brasileiro';
+            } else {
+              document.getElementById('pais').innerHTML = 'Gringo';
+          }
+          };
+        
+        
+       
+
+    </script>
+</body>
+</html>
