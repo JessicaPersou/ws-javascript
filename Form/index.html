@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Validate Form</title>
+  </head>
+  <body>
+    <form class="form" onsubmit="enviar(event)" id="form-cadastro">
+      <!-- <input type="text" name="cpf" id="cpf" placeholder="CPF" required /> -->
+      <input
+        class="required"
+        type="text"
+        name="nomeCompleto"
+        id="nomeCompleto"
+        placeholder="Nome Completo"
+      />
+
+      <input
+        class="required"
+        type="email"
+        name="email"
+        id="email"
+        placeholder="E-mail"
+      />
+      <input
+        class="required"
+        type="date"
+        name="dataNascimento"
+        id="dataNascimento"
+        placeholder="Data de Nascimento"
+      />
+      <input
+        class="required"
+        type="number"
+        name="telefone"
+        id="telefone"
+        placeholder="Telefone"
+      />
+      <input
+        class="required"
+        type="text"
+        name="endereco"
+        id="endereco"
+        placeholder="Endereço"
+      />
+      <input
+        class="required"
+        type="number"
+        name="cep"
+        id="cep"
+        placeholder="CEP"
+      />
+      <input
+        class="required"
+        type="text"
+        name="cidade"
+        id="cidade"
+        placeholder="Cidade"
+      />
+      <input
+        class="required"
+        type="text"
+        name="estado"
+        id="estado"
+        placeholder="Estado"
+      />
+      <input
+        class="required"
+        type="email"
+        name="email"
+        id="email"
+        placeholder="E-mail"
+      />
+      <input
+        class="required"
+        type="password"
+        name="senha"
+        id="senha"
+        placeholder="Senha"
+      />
+      <input
+        class="required"
+        type="password"
+        name="confirmaSenha"
+        id="confirmaSenha"
+        placeholder="Confirmar Senha"
+      />
+      <button class="btn" type="submit">Enviar</button>
+    </form>
+    <script src="/validate.js"></script>
+  </body>
+</html>
