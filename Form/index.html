@@ -7,14 +7,15 @@
     <title>Validate Form</title>
   </head>
   <body>
-    <form class="form" onsubmit="enviar(event)" id="form-cadastro">
-      <!-- <input type="text" name="cpf" id="cpf" placeholder="CPF" required /> -->
+    <form class="form" id="form-cadastro">
+      <!-- <input type="text" name="cpf" id="cpf" placeholder="CPF" required onsubmit="enviar(event)" /> -->
       <input
         class="required"
         type="text"
         name="nomeCompleto"
         id="nomeCompleto"
         placeholder="Nome Completo"
+        oninput="validarCampos()"
       />
 
       <input
@@ -24,7 +25,7 @@
         id="email"
         placeholder="E-mail"
       />
-      <input
+      <!-- <input
         class="required"
         type="date"
         name="dataNascimento"
@@ -86,7 +87,7 @@
         name="confirmaSenha"
         id="confirmaSenha"
         placeholder="Confirmar Senha"
-      />
+      /> -->
       <button class="btn" type="submit">Enviar</button>
     </form>
     <script src="/validate.js"></script>

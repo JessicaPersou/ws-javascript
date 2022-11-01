@@ -19,16 +19,30 @@
 //   return /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email);
 // }
 
-function enviar(e) {
-  e.preventDefault();
-  if (!validar()) {
-    return;
-  }
-  alert("Formulário enviado com Sucesso!");
+// function enviar(e) {
+//   e.preventDefault();
+//   if (!validar()) {
+//     return;
+//   }
+//   alert("Formulário enviado com Sucesso!");
+// }
+
+const form = document.getElementById("form-cadastro");
+const camposObrigatorios = document.querySelectorAll(".required");
+const verificarEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(
+  email
+);
+
+function setError(index) {
+  camposObrigatorios[index].style.border = "1px solid red";
 }
 
-const camposObrigatorios = documento.getElementByClass(".required");
-
-function enviar() {
-  console.log(camposObrigatorios);
+function validarCampos() {
+  //nome
+  if (
+    camposObrigatorios[0].value.length < 3 ||
+    camposObrigatorios[0].valeu.length > 30
+  ) {
+    setError(0);
+  }
 }
